@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+
+# Competition data (download from github.com/amboltio/DM-i-AI-2025)
+emergency-healthcare-rag/data/
+tumor-segmentation/data/
+tumor-segmentation/nnUNet_raw/
+tumor-segmentation/nnUNet_preprocessed/
+tumor-segmentation/nnUNet_results/
+
+# Model weights, checkpoints and training output
+models/weights/
+*.pth
+*.pt
+*.ckpt
+*.joblib
+*.pkl
+*.hnsw
+race-car/models/
+logs/
+lightning_logs/
